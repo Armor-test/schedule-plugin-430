@@ -1,0 +1,38 @@
+# CODEOWNERS file for schedule-plugin-430
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-api @Armor-test/squad-apps @Armor-test/grp-integration
+
+# Directory ownership
+/controllers/ @Armor-test/team-frontend @Armor-test/team-notifications
+/migrations/ @Armor-test/squad-qa @Armor-test/dept-reporting @Armor-test/squad-frontend
+/docs/ @Armor-test/dept-test @Armor-test/dept-automation
+/pages/ @Armor-test/unit-governance @Armor-test/team-governance @Armor-test/dept-reliability
+/db/ @Armor-test/squad-tooling @Armor-test/squad-mobile
+/src/ @Armor-test/squad-product @Armor-test/squad-cache
+/lib/ @Armor-test/squad-ml @Armor-test/squad-cloud
+/extensions/ @Armor-test/squad-mobile @Armor-test/grp-storage @Armor-test/grp-reporting
+/assets/ @Armor-test/squad-api @Armor-test/dept-reliability @Armor-test/squad-performance
+/tools/ @Armor-test/squad-qa @Armor-test/squad-mobile
+/web/ @Armor-test/squad-cloud @Armor-test/team-notifications @Armor-test/grp-ui
+/pkg/ @Armor-test/dept-security @Armor-test/dept-ui @Armor-test/dept-test
+/hooks/ @Armor-test/unit-cloud @Armor-test/grp-search
+
+# File type ownership
+*.html @Armor-test/squad-reporting @Armor-test/squad-mobile
+*.properties @Armor-test/squad-apps @Armor-test/grp-storage @Armor-test/dept-notifications
+*.xml @Armor-test/unit-cloud @Armor-test/squad-product @Armor-test/grp-api
+*.go @Armor-test/squad-cloud @Armor-test/dept-billing
+*.rb @Armor-test/squad-research @Armor-test/unit-devops @Armor-test/squad-cloud
+*.java @Armor-test/team-core @Armor-test/dept-test @Armor-test/squad-api
+*.php @Armor-test/squad-ml @Armor-test/dept-identity
+*.graphql @Armor-test/squad-api @Armor-test/grp-integration @Armor-test/grp-api
+*.ts @Armor-test/team-security @Armor-test/dept-automation @Armor-test/unit-test
+*.rs @Armor-test/team-logging @Armor-test/squad-database
+*.lock @Armor-test/dept-security @Armor-test/squad-ml
+*.toml @Armor-test/squad-ml @Armor-test/squad-ux
+*.c @Armor-test/grp-api @Armor-test/dept-reporting
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
